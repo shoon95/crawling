@@ -39,8 +39,8 @@ login$clickElement()
 id = remDr$findElement('xpath','//*[@id="id"]')
 pw = remDr$findElement('xpath', '//*[@id="pw"]')
 
-id$setElementAttribute("value", 'shawnk123') 
-pw$setElementAttribute("value", 'dkel80870#')  
+id$setElementAttribute("value", '#아이디 입력') #비밀번호 입력
+pw$setElementAttribute("value", '#비밀번호 입력')#아이디 입력  
 
 ### 로그인 하기
 
