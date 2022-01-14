@@ -43,7 +43,7 @@ for(i in 1:100){
   
   rest_url<-paste0("http://apis.data.go.kr/1611000/AptListService/getLegaldongAptList?loadCode=",loadcode_num,"&numOfRows=100&ServiceKey=") # :: ,를 기준으로 총 세 가지 문자를 공백없이 붙여서 rest_url 이라는 변수명에 저장
   
-  service_key<-"YKIsIN881yttTiA68%2BBXZTvcGA3LR4bgDkSu2g5WNzUkVgaesK8i80Apcw%2BEMKJ6mBIEIZCPYM5EgCy8wuPW1w%3D%3D" # :: 서비스  키를 service_key라는 변수명에 저장
+  service_key<-"#api 입력" # :: 서비스  키를 service_key라는 변수명에 저장
   
   list_url<-paste0(rest_url,service_key) # :: 위에서 만든 rest_url, service_key를 공백없이 붙여서 list_url 변수에 저장 
   
